@@ -10,6 +10,9 @@
 		1FF235C13E7F968C1FC7A32E /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD03A91D54B761915F4F1DB9 /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework */; };
 		E1F12C61E0DE7B3C087A79B9 /* Pods_AisleConnectDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7D7BF11FEC8F56F4E8522 /* Pods_AisleConnectDemoTests.framework */; };
 		F9E5FB7BA4A1CD32909E1A8E /* Pods_AisleConnectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AD7EEBD253272925D2B983 /* Pods_AisleConnectDemo.framework */; };
+		FA16728226ECE4F200EFB298 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA16728126ECE4F200EFB298 /* LoginAPI.swift */; };
+		FA1672AC26ECF38700EFB298 /* UserToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1672AB26ECF38700EFB298 /* UserToken.swift */; };
+		FA1672B326ECFA6B00EFB298 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1672B226ECFA6B00EFB298 /* ChecklistViewController.swift */; };
 		FA68EEB726E3D91600176789 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7507226E3CBE000718C23 /* LoginViewController.swift */; };
 		FAD7501D26E3C86600718C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7501C26E3C86600718C23 /* AppDelegate.swift */; };
 		FAD7501F26E3C86600718C23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7501E26E3C86600718C23 /* SceneDelegate.swift */; };
@@ -21,7 +24,7 @@
 		FAD7506726E3C91500718C23 /* NibInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7506626E3C91500718C23 /* NibInstantiable.swift */; };
 		FAD7507326E3CBE000718C23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7507226E3CBE000718C23 /* LoginViewController.swift */; };
 		FAD7507826E3CC0800718C23 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD7507726E3CC0800718C23 /* LoginViewController.storyboard */; };
-		FAD7508326E3D72300718C23 /* LoginRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7508226E3D72300718C23 /* LoginRequset.swift */; };
+		FAD7508326E3D72300718C23 /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7508226E3D72300718C23 /* LoginInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		ADB24BB12F571E80C59B2AE5 /* Pods-AisleConnectDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemoTests.release.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemoTests/Pods-AisleConnectDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD03A91D54B761915F4F1DB9 /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AisleConnectDemo_AisleConnectDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AD7EEBD253272925D2B983 /* Pods_AisleConnectDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AisleConnectDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA16728126ECE4F200EFB298 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		FA1672AB26ECF38700EFB298 /* UserToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToken.swift; sourceTree = "<group>"; };
+		FA1672B226ECFA6B00EFB298 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		FAD7501926E3C86600718C23 /* AisleConnectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AisleConnectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD7501C26E3C86600718C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD7501E26E3C86600718C23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +73,7 @@
 		FAD7506626E3C91500718C23 /* NibInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiable.swift; sourceTree = "<group>"; };
 		FAD7507226E3CBE000718C23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAD7507726E3CC0800718C23 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
-		FAD7508226E3D72300718C23 /* LoginRequset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequset.swift; sourceTree = "<group>"; };
+		FAD7508226E3D72300718C23 /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +127,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FA16728726ECEAEE00EFB298 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FA1672B026ECFA3D00EFB298 /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				FA1672B126ECFA4800EFB298 /* ViewController */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		FA1672B126ECFA4800EFB298 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA1672B226ECFA6B00EFB298 /* ChecklistViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		FAD0AA6E26E48FC00043FBA7 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FA16728126ECE4F200EFB298 /* LoginAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -153,6 +183,8 @@
 		FAD7501B26E3C86600718C23 /* AisleConnectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA1672B026ECFA3D00EFB298 /* Checklist */,
+				FA16728726ECEAEE00EFB298 /* UI */,
 				FAD7506B26E3C93100718C23 /* Login */,
 				FAD7505D26E3C8C400718C23 /* Extension */,
 				FAD7501C26E3C86600718C23 /* AppDelegate.swift */,
@@ -213,7 +245,8 @@
 		FAD7506D26E3C94F00718C23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FAD7508226E3D72300718C23 /* LoginRequset.swift */,
+				FAD7508226E3D72300718C23 /* LoginInfo.swift */,
+				FA1672AB26ECF38700EFB298 /* UserToken.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -457,11 +490,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD7507326E3CBE000718C23 /* LoginViewController.swift in Sources */,
+				FA1672B326ECFA6B00EFB298 /* ChecklistViewController.swift in Sources */,
 				FAD7506726E3C91500718C23 /* NibInstantiable.swift in Sources */,
+				FA1672AC26ECF38700EFB298 /* UserToken.swift in Sources */,
+				FA16728226ECE4F200EFB298 /* LoginAPI.swift in Sources */,
 				FAD7501D26E3C86600718C23 /* AppDelegate.swift in Sources */,
 				FAD7505F26E3C8DE00718C23 /* StoryboardInstantiable.swift in Sources */,
 				FAD7501F26E3C86600718C23 /* SceneDelegate.swift in Sources */,
-				FAD7508326E3D72300718C23 /* LoginRequset.swift in Sources */,
+				FAD7508326E3D72300718C23 /* LoginInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

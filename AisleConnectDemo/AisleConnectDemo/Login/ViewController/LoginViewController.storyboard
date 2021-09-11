@@ -21,6 +21,9 @@
                                     <constraint firstAttribute="height" constant="50" id="lz1-Np-e1T"/>
                                 </constraints>
                                 <state key="normal" title="登入"/>
+                                <connections>
+                                    <action selector="willLogin:" destination="Zxg-b6-nCz" eventType="touchUpInside" id="Y0g-M7-7U0"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="請輸入密碼" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yeb-I4-5ki">
                                 <rect key="frame" x="50" y="662" width="314" height="50"/>
