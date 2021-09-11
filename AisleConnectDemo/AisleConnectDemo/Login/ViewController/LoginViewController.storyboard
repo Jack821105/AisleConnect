@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zxg-b6-nCz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="lql-gE-XUx">
+            <objects>
+                <viewController id="Zxg-b6-nCz" customClass="LoginViewController" customModule="AisleConnectDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="99C-HK-dPH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgE-w8-uGk">
+                                <rect key="frame" x="50" y="762" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="lz1-Np-e1T"/>
+                                </constraints>
+                                <state key="normal" title="登入"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="請輸入密碼" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yeb-I4-5ki">
+                                <rect key="frame" x="50" y="662" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wsr-9i-EBd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="請輸入帳號" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c8g-Im-Ndf">
+                                <rect key="frame" x="50" y="602" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0o2-GS-zjx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wP7-cm-msM"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GgE-w8-uGk" firstAttribute="top" secondItem="Yeb-I4-5ki" secondAttribute="bottom" constant="50" id="0gc-JO-BAy"/>
+                            <constraint firstItem="c8g-Im-Ndf" firstAttribute="leading" secondItem="wP7-cm-msM" secondAttribute="leading" constant="50" id="14G-9q-SxZ"/>
+                            <constraint firstItem="Yeb-I4-5ki" firstAttribute="top" secondItem="c8g-Im-Ndf" secondAttribute="bottom" constant="10" id="Lkp-3o-a0a"/>
+                            <constraint firstItem="GgE-w8-uGk" firstAttribute="leading" secondItem="wP7-cm-msM" secondAttribute="leading" constant="50" id="U5J-XB-bgx"/>
+                            <constraint firstItem="Yeb-I4-5ki" firstAttribute="leading" secondItem="wP7-cm-msM" secondAttribute="leading" constant="50" id="iPp-yF-MJW"/>
+                            <constraint firstItem="wP7-cm-msM" firstAttribute="trailing" secondItem="Yeb-I4-5ki" secondAttribute="trailing" constant="50" id="ite-A4-wsI"/>
+                            <constraint firstItem="wP7-cm-msM" firstAttribute="trailing" secondItem="c8g-Im-Ndf" secondAttribute="trailing" constant="50" id="noc-vX-Jb6"/>
+                            <constraint firstItem="wP7-cm-msM" firstAttribute="bottom" secondItem="GgE-w8-uGk" secondAttribute="bottom" constant="50" id="olS-tO-ERd"/>
+                            <constraint firstItem="wP7-cm-msM" firstAttribute="trailing" secondItem="GgE-w8-uGk" secondAttribute="trailing" constant="50" id="tX7-RR-qxH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accountTextField" destination="c8g-Im-Ndf" id="6lp-0l-fZp"/>
+                        <outlet property="blueViewBottomConstraint" destination="olS-tO-ERd" id="iaf-kg-F5t"/>
+                        <outlet property="passwordTextField" destination="Yeb-I4-5ki" id="Xle-FP-FRH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akJ-cc-Snq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="642" y="201"/>
+        </scene>
+    </scenes>
+</document>

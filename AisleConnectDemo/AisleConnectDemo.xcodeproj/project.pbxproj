@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF235C13E7F968C1FC7A32E /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD03A91D54B761915F4F1DB9 /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework */; };
+		E1F12C61E0DE7B3C087A79B9 /* Pods_AisleConnectDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7D7BF11FEC8F56F4E8522 /* Pods_AisleConnectDemoTests.framework */; };
+		F9E5FB7BA4A1CD32909E1A8E /* Pods_AisleConnectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AD7EEBD253272925D2B983 /* Pods_AisleConnectDemo.framework */; };
+		FA68EEB726E3D91600176789 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7507226E3CBE000718C23 /* LoginViewController.swift */; };
+		FAD7501D26E3C86600718C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7501C26E3C86600718C23 /* AppDelegate.swift */; };
+		FAD7501F26E3C86600718C23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7501E26E3C86600718C23 /* SceneDelegate.swift */; };
+		FAD7502626E3C86600718C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD7502526E3C86600718C23 /* Assets.xcassets */; };
+		FAD7502926E3C86600718C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD7502726E3C86600718C23 /* LaunchScreen.storyboard */; };
+		FAD7503426E3C86600718C23 /* AisleConnectDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7503326E3C86600718C23 /* AisleConnectDemoTests.swift */; };
+		FAD7503F26E3C86700718C23 /* AisleConnectDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7503E26E3C86700718C23 /* AisleConnectDemoUITests.swift */; };
+		FAD7505F26E3C8DE00718C23 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7505E26E3C8DE00718C23 /* StoryboardInstantiable.swift */; };
+		FAD7506726E3C91500718C23 /* NibInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7506626E3C91500718C23 /* NibInstantiable.swift */; };
+		FAD7507326E3CBE000718C23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7507226E3CBE000718C23 /* LoginViewController.swift */; };
+		FAD7507826E3CC0800718C23 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD7507726E3CC0800718C23 /* LoginViewController.storyboard */; };
+		FAD7508326E3D72300718C23 /* LoginRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7508226E3D72300718C23 /* LoginRequset.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD7503026E3C86600718C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD7501126E3C86600718C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD7501826E3C86600718C23;
+			remoteInfo = AisleConnectDemo;
+		};
+		FAD7503B26E3C86700718C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD7501126E3C86600718C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD7501826E3C86600718C23;
+			remoteInfo = AisleConnectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE5EA21D571FD825E31D334 /* Pods-AisleConnectDemo-AisleConnectDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemo-AisleConnectDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemo-AisleConnectDemoUITests/Pods-AisleConnectDemo-AisleConnectDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C96D01804C6FAF129BD1D34 /* Pods-AisleConnectDemo-AisleConnectDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemo-AisleConnectDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemo-AisleConnectDemoUITests/Pods-AisleConnectDemo-AisleConnectDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FC7D7BF11FEC8F56F4E8522 /* Pods_AisleConnectDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AisleConnectDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754B41ACA3FD5CEAF0E62F4 /* Pods-AisleConnectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemo.release.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemo/Pods-AisleConnectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4842F24EB31B540C154CB99A /* Pods-AisleConnectDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemoTests/Pods-AisleConnectDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A09F22E3B28C8773092611A /* Pods-AisleConnectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemo.debug.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemo/Pods-AisleConnectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB24BB12F571E80C59B2AE5 /* Pods-AisleConnectDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AisleConnectDemoTests.release.xcconfig"; path = "Target Support Files/Pods-AisleConnectDemoTests/Pods-AisleConnectDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD03A91D54B761915F4F1DB9 /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AisleConnectDemo_AisleConnectDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AD7EEBD253272925D2B983 /* Pods_AisleConnectDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AisleConnectDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD7501926E3C86600718C23 /* AisleConnectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AisleConnectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD7501C26E3C86600718C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD7501E26E3C86600718C23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAD7502526E3C86600718C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD7502826E3C86600718C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD7502A26E3C86600718C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD7502F26E3C86600718C23 /* AisleConnectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AisleConnectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD7503326E3C86600718C23 /* AisleConnectDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AisleConnectDemoTests.swift; sourceTree = "<group>"; };
+		FAD7503526E3C86600718C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD7503A26E3C86600718C23 /* AisleConnectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AisleConnectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD7503E26E3C86700718C23 /* AisleConnectDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AisleConnectDemoUITests.swift; sourceTree = "<group>"; };
+		FAD7504026E3C86700718C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD7505E26E3C8DE00718C23 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		FAD7506626E3C91500718C23 /* NibInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiable.swift; sourceTree = "<group>"; };
+		FAD7507226E3CBE000718C23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAD7507726E3CC0800718C23 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		FAD7508226E3D72300718C23 /* LoginRequset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequset.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD7501626E3C86600718C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E5FB7BA4A1CD32909E1A8E /* Pods_AisleConnectDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7502C26E3C86600718C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F12C61E0DE7B3C087A79B9 /* Pods_AisleConnectDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7503726E3C86600718C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF235C13E7F968C1FC7A32E /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA4AE8E0B18B4676CA49C9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD7EEBD253272925D2B983 /* Pods_AisleConnectDemo.framework */,
+				BD03A91D54B761915F4F1DB9 /* Pods_AisleConnectDemo_AisleConnectDemoUITests.framework */,
+				1FC7D7BF11FEC8F56F4E8522 /* Pods_AisleConnectDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0D6823DCBB5709BC3E876E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A09F22E3B28C8773092611A /* Pods-AisleConnectDemo.debug.xcconfig */,
+				4754B41ACA3FD5CEAF0E62F4 /* Pods-AisleConnectDemo.release.xcconfig */,
+				0C96D01804C6FAF129BD1D34 /* Pods-AisleConnectDemo-AisleConnectDemoUITests.debug.xcconfig */,
+				0BE5EA21D571FD825E31D334 /* Pods-AisleConnectDemo-AisleConnectDemoUITests.release.xcconfig */,
+				4842F24EB31B540C154CB99A /* Pods-AisleConnectDemoTests.debug.xcconfig */,
+				ADB24BB12F571E80C59B2AE5 /* Pods-AisleConnectDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAD0AA6E26E48FC00043FBA7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FAD7501026E3C86600718C23 = {
+			isa = PBXGroup;
+			children = (
+				FAD7501B26E3C86600718C23 /* AisleConnectDemo */,
+				FAD7503226E3C86600718C23 /* AisleConnectDemoTests */,
+				FAD7503D26E3C86700718C23 /* AisleConnectDemoUITests */,
+				FAD7501A26E3C86600718C23 /* Products */,
+				F0D6823DCBB5709BC3E876E7 /* Pods */,
+				DA4AE8E0B18B4676CA49C9C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD7501A26E3C86600718C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7501926E3C86600718C23 /* AisleConnectDemo.app */,
+				FAD7502F26E3C86600718C23 /* AisleConnectDemoTests.xctest */,
+				FAD7503A26E3C86600718C23 /* AisleConnectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD7501B26E3C86600718C23 /* AisleConnectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7506B26E3C93100718C23 /* Login */,
+				FAD7505D26E3C8C400718C23 /* Extension */,
+				FAD7501C26E3C86600718C23 /* AppDelegate.swift */,
+				FAD7501E26E3C86600718C23 /* SceneDelegate.swift */,
+				FAD7502526E3C86600718C23 /* Assets.xcassets */,
+				FAD7502726E3C86600718C23 /* LaunchScreen.storyboard */,
+				FAD7502A26E3C86600718C23 /* Info.plist */,
+			);
+			path = AisleConnectDemo;
+			sourceTree = "<group>";
+		};
+		FAD7503226E3C86600718C23 /* AisleConnectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7503326E3C86600718C23 /* AisleConnectDemoTests.swift */,
+				FAD7503526E3C86600718C23 /* Info.plist */,
+			);
+			path = AisleConnectDemoTests;
+			sourceTree = "<group>";
+		};
+		FAD7503D26E3C86700718C23 /* AisleConnectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7503E26E3C86700718C23 /* AisleConnectDemoUITests.swift */,
+				FAD7504026E3C86700718C23 /* Info.plist */,
+			);
+			path = AisleConnectDemoUITests;
+			sourceTree = "<group>";
+		};
+		FAD7505D26E3C8C400718C23 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7505E26E3C8DE00718C23 /* StoryboardInstantiable.swift */,
+				FAD7506626E3C91500718C23 /* NibInstantiable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FAD7506B26E3C93100718C23 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0AA6E26E48FC00043FBA7 /* API */,
+				FAD7506D26E3C94F00718C23 /* Model */,
+				FAD7506C26E3C94100718C23 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FAD7506C26E3C94100718C23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7507226E3CBE000718C23 /* LoginViewController.swift */,
+				FAD7507726E3CC0800718C23 /* LoginViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FAD7506D26E3C94F00718C23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7508226E3D72300718C23 /* LoginRequset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD7501826E3C86600718C23 /* AisleConnectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD7504326E3C86700718C23 /* Build configuration list for PBXNativeTarget "AisleConnectDemo" */;
+			buildPhases = (
+				F97978AD9576EF16B4F150CB /* [CP] Check Pods Manifest.lock */,
+				FAD7501526E3C86600718C23 /* Sources */,
+				FAD7501626E3C86600718C23 /* Frameworks */,
+				FAD7501726E3C86600718C23 /* Resources */,
+				66F7265AFD1CFBB64FE53005 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AisleConnectDemo;
+			productName = AisleConnectDemo;
+			productReference = FAD7501926E3C86600718C23 /* AisleConnectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD7502E26E3C86600718C23 /* AisleConnectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD7504626E3C86700718C23 /* Build configuration list for PBXNativeTarget "AisleConnectDemoTests" */;
+			buildPhases = (
+				E9A326211DBA0AF7ACE11725 /* [CP] Check Pods Manifest.lock */,
+				FAD7502B26E3C86600718C23 /* Sources */,
+				FAD7502C26E3C86600718C23 /* Frameworks */,
+				FAD7502D26E3C86600718C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD7503126E3C86600718C23 /* PBXTargetDependency */,
+			);
+			name = AisleConnectDemoTests;
+			productName = AisleConnectDemoTests;
+			productReference = FAD7502F26E3C86600718C23 /* AisleConnectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD7503926E3C86600718C23 /* AisleConnectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD7504926E3C86700718C23 /* Build configuration list for PBXNativeTarget "AisleConnectDemoUITests" */;
+			buildPhases = (
+				A634093E018672B7D2A4A1E9 /* [CP] Check Pods Manifest.lock */,
+				FAD7503626E3C86600718C23 /* Sources */,
+				FAD7503726E3C86600718C23 /* Frameworks */,
+				FAD7503826E3C86600718C23 /* Resources */,
+				5D30138C761C646E7E7B99CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD7503C26E3C86700718C23 /* PBXTargetDependency */,
+			);
+			name = AisleConnectDemoUITests;
+			productName = AisleConnectDemoUITests;
+			productReference = FAD7503A26E3C86600718C23 /* AisleConnectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD7501126E3C86600718C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAD7501826E3C86600718C23 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FAD7502E26E3C86600718C23 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FAD7501826E3C86600718C23;
+					};
+					FAD7503926E3C86600718C23 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FAD7501826E3C86600718C23;
+					};
+				};
+			};
+			buildConfigurationList = FAD7501426E3C86600718C23 /* Build configuration list for PBXProject "AisleConnectDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD7501026E3C86600718C23;
+			productRefGroup = FAD7501A26E3C86600718C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD7501826E3C86600718C23 /* AisleConnectDemo */,
+				FAD7502E26E3C86600718C23 /* AisleConnectDemoTests */,
+				FAD7503926E3C86600718C23 /* AisleConnectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD7501726E3C86600718C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD7502926E3C86600718C23 /* LaunchScreen.storyboard in Resources */,
+				FAD7507826E3CC0800718C23 /* LoginViewController.storyboard in Resources */,
+				FAD7502626E3C86600718C23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7502D26E3C86600718C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7503826E3C86600718C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D30138C761C646E7E7B99CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AisleConnectDemo-AisleConnectDemoUITests/Pods-AisleConnectDemo-AisleConnectDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AisleConnectDemo-AisleConnectDemoUITests/Pods-AisleConnectDemo-AisleConnectDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AisleConnectDemo-AisleConnectDemoUITests/Pods-AisleConnectDemo-AisleConnectDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F7265AFD1CFBB64FE53005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AisleConnectDemo/Pods-AisleConnectDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AisleConnectDemo/Pods-AisleConnectDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AisleConnectDemo/Pods-AisleConnectDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A634093E018672B7D2A4A1E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AisleConnectDemo-AisleConnectDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A326211DBA0AF7ACE11725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AisleConnectDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97978AD9576EF16B4F150CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AisleConnectDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD7501526E3C86600718C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD7507326E3CBE000718C23 /* LoginViewController.swift in Sources */,
+				FAD7506726E3C91500718C23 /* NibInstantiable.swift in Sources */,
+				FAD7501D26E3C86600718C23 /* AppDelegate.swift in Sources */,
+				FAD7505F26E3C8DE00718C23 /* StoryboardInstantiable.swift in Sources */,
+				FAD7501F26E3C86600718C23 /* SceneDelegate.swift in Sources */,
+				FAD7508326E3D72300718C23 /* LoginRequset.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7502B26E3C86600718C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA68EEB726E3D91600176789 /* LoginViewController.swift in Sources */,
+				FAD7503426E3C86600718C23 /* AisleConnectDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7503626E3C86600718C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD7503F26E3C86700718C23 /* AisleConnectDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD7503126E3C86600718C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD7501826E3C86600718C23 /* AisleConnectDemo */;
+			targetProxy = FAD7503026E3C86600718C23 /* PBXContainerItemProxy */;
+		};
+		FAD7503C26E3C86700718C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD7501826E3C86600718C23 /* AisleConnectDemo */;
+			targetProxy = FAD7503B26E3C86700718C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD7502726E3C86600718C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD7502826E3C86600718C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD7504126E3C86700718C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD7504226E3C86700718C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD7504426E3C86700718C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A09F22E3B28C8773092611A /* Pods-AisleConnectDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AisleConnectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"\"-ObjC\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AisleConnectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD7504526E3C86700718C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4754B41ACA3FD5CEAF0E62F4 /* Pods-AisleConnectDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AisleConnectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"\"-ObjC\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AisleConnectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD7504726E3C86700718C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4842F24EB31B540C154CB99A /* Pods-AisleConnectDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AisleConnectDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AisleConnectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AisleConnectDemo.app/AisleConnectDemo";
+			};
+			name = Debug;
+		};
+		FAD7504826E3C86700718C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB24BB12F571E80C59B2AE5 /* Pods-AisleConnectDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AisleConnectDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AisleConnectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AisleConnectDemo.app/AisleConnectDemo";
+			};
+			name = Release;
+		};
+		FAD7504A26E3C86700718C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C96D01804C6FAF129BD1D34 /* Pods-AisleConnectDemo-AisleConnectDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AisleConnectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AisleConnectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AisleConnectDemo;
+			};
+			name = Debug;
+		};
+		FAD7504B26E3C86700718C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE5EA21D571FD825E31D334 /* Pods-AisleConnectDemo-AisleConnectDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AisleConnectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AisleConnectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AisleConnectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD7501426E3C86600718C23 /* Build configuration list for PBXProject "AisleConnectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD7504126E3C86700718C23 /* Debug */,
+				FAD7504226E3C86700718C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD7504326E3C86700718C23 /* Build configuration list for PBXNativeTarget "AisleConnectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD7504426E3C86700718C23 /* Debug */,
+				FAD7504526E3C86700718C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD7504626E3C86700718C23 /* Build configuration list for PBXNativeTarget "AisleConnectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD7504726E3C86700718C23 /* Debug */,
+				FAD7504826E3C86700718C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD7504926E3C86700718C23 /* Build configuration list for PBXNativeTarget "AisleConnectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD7504A26E3C86700718C23 /* Debug */,
+				FAD7504B26E3C86700718C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD7501126E3C86600718C23 /* Project object */;
+}
