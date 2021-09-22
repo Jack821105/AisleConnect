@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class UserModel {
+    
+    
+    static var userInfo: UserToken? = nil
+    
+    
+}

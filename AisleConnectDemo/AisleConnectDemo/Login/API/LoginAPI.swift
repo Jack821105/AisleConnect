@@ -43,6 +43,7 @@ class LoginAPI {
             
             if let info = try? JSONDecoder().decode(UserToken.self, from: data) {
                 DispatchQueue.main.async {
+                    UserModel.userInfo = info
                     callback(info)
                 }
             } else {
