@@ -121,7 +121,8 @@ extension LoginViewController {
         let userInfo: LoginInfo = LoginInfo(username: userName, password: password)
         
         LoginAPI.shared.login(loginInfo: userInfo) { (info) in
-            
+                let vc = ChecklistViewController.instantiate()
+                self.navigationController?.pushViewController(vc, animated: true)
         } errorHandler: {
             self.showWarningWindow(title: "error", message: "輸入帳號或密碼有誤～～")
         }

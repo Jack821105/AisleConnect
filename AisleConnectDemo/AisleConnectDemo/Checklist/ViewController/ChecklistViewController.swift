@@ -33,6 +33,12 @@ class ChecklistViewController: UIViewController {
         loadData()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupNavigation()
+    }
+    
+    
     // MARK: - Method
     
     private func setupNavigation() {

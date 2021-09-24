@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YVo-cE-9K1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ozS-fZ-2wW">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -30,8 +30,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="wsr-9i-EBd"/>
                                 </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="paul.lin@lineagenetworks.com" borderStyle="roundedRect" placeholder="請輸入帳號" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c8g-Im-Ndf">
                                 <rect key="frame" x="50" y="602" width="314" height="50"/>
@@ -66,25 +67,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akJ-cc-Snq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1550.7246376811595" y="200.89285714285714"/>
+            <point key="canvasLocation" x="2460.8695652173915" y="200.89285714285714"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="cJG-nA-BRR">
+        <scene sceneID="9RJ-QA-Gn5">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YVo-cE-9K1" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ozS-fZ-2wW" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O6I-D8-Bc9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XTX-Jk-MdR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Zxg-b6-nCz" kind="relationship" relationship="rootViewController" id="gvf-XF-Dnd"/>
+                        <segue destination="Zxg-b6-nCz" kind="relationship" relationship="rootViewController" id="XYS-Zo-tAg"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sbl-gJ-8eg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUQ-eK-KYi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="640.57971014492762" y="200.89285714285714"/>
+            <point key="canvasLocation" x="1550.7246376811595" y="200.89285714285714"/>
         </scene>
     </scenes>
 </document>
